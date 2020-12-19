@@ -1,5 +1,6 @@
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\appsettings.Development.json
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\appsettings.json
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\appsettings.Production.json
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\appsettings.Testing.json
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\BestTourPlan.exe
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\BestTourPlan.deps.json
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\BestTourPlan.runtimeconfig.json
@@ -8,6 +9,7 @@ Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\BestTour
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\BestTourPlan.pdb
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\BestTourPlan.Views.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\BestTourPlan.Views.pdb
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\DnsClient.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -32,8 +34,14 @@ Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\Microsof
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\MongoDB.Driver.GridFS.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\SharpCompress.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
@@ -96,6 +104,9 @@ Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\zh-Hans\
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
@@ -115,13 +126,7 @@ Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\scopedcs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.TagHelpers.input.cache
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.TagHelpers.output.cache
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.RazorCoreGenerate.cache
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.RazorTargetAssemblyInfo.cache
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.RazorTargetAssemblyInfo.cs
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.Views.pdb
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.csproj.CopyComplete
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.dll
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.pdb
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.genruntimeconfig.cache
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Home\Show.cshtml.g.cs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ActivitiesPartial.cshtml.g.cs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\BreadcrumbPartial.cshtml.g.cs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\FooterPartial.cshtml.g.cs
@@ -134,4 +139,10 @@ Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Vi
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Home\Show.cshtml.g.cs
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.RazorTargetAssemblyInfo.cache
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.RazorTargetAssemblyInfo.cs
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.Views.pdb
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.csproj.CopyComplete
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.dll
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.pdb
+Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.genruntimeconfig.cache

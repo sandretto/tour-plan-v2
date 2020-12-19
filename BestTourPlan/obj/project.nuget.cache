@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "InfYwz+kh4B8XnzFUaofRwJ6mVwpQF/lp/Na8QOt3+14SbrmVBrNdn390yganfVpZb+GmTjAQEXba3Sra+Cgfw==",
+  "dgSpecHash": "5izCAeA0/BtKVmWP59tzImnzmTnG5NxiYLpAKciPbtgJ+6MFr1xLx57m9h2OYQRGbxnrrn0jn1Pur3fDrCgrVg==",
   "success": true,
   "projectFilePath": "Q:\\DATA\\03-Web-2020\\best-tour-plan\\BestTourPlan\\BestTourPlan.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\gizzb\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.0\\microsoft.entityframeworkcore.design.3.1.0.nupkg.sha512",
     "C:\\Users\\gizzb\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
     "C:\\Users\\gizzb\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.0\\microsoft.entityframeworkcore.sqlserver.3.1.0.nupkg.sha512",
+    "C:\\Users\\gizzb\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.0\\microsoft.entityframeworkcore.tools.3.1.0.nupkg.sha512",
     "C:\\Users\\gizzb\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.0\\microsoft.extensions.caching.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\gizzb\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.0\\microsoft.extensions.caching.memory.3.1.0.nupkg.sha512",
     "C:\\Users\\gizzb\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.0\\microsoft.extensions.configuration.3.1.0.nupkg.sha512",
