@@ -1,0 +1,46 @@
+﻿@model BestTourPlan.Models.LoginViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    @await Html.PartialAsync("MetaPartial")
+    @await Html.PartialAsync("StylesPartial")
+</head>
+<body>
+    <section class="login">
+        <div class="login__container">
+            <h3 class="login__title modal__title--form">Sign In</h3>
+            <form asp-action="Login">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="login__input-group">
+                    <input type="text"
+                           asp-for="UserName"
+                           class="input login__input"
+                           placeholder="User Name*" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div class="login__input-group">
+                    <input type="password"
+                           asp-for="Password"
+                           class="input login__input"
+                           placeholder="Password*" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Sign In" class="button login__button" />
+                </div>
+                <span class="login__info--top">*&nbsp;Required fields</span>
+                <div>
+                    <a asp-action="Index" class="footer__link">
+                        <input type="submit" value="Back to List" class="button login__button" />
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
