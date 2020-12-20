@@ -52,7 +52,17 @@ namespace BestTourPlan
                 x.SlidingExpiration = true;
             });
 
-            services.AddControllersWithViews()
+            services.AddAuthorization(x =>
+            {
+                x.AddPolicy("AdminArea", policy =>
+                {
+                    policy.RequireRole("admin");
+                });
+            });
+
+            services.AddControllersWithViews(x=> {
+                x.Conventions.Add(new AdminAuthorization("Admin", "AdminArea"));
+            })
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0)
                 .AddSessionStateTempDataProvider();
         }
@@ -75,7 +85,8 @@ namespace BestTourPlan
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Show}/{id?}");
+                endpoints.MapControllerRoute("admin", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
