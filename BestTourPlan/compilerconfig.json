@@ -1,6 +1,6 @@
 ﻿[
   {
-    "outputFile": "wwwroot/css/style.css",
-    "inputFile": "wwwroot/sass/style.sass"
+    "outputFile": "wwwroot/sass/templates/_activities.css",
+    "inputFile": "wwwroot/sass/templates/_activities.sass"
   }
 ]
