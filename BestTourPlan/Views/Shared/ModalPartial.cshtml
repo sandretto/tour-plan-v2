@@ -1,0 +1,45 @@
+﻿<div class="modal" id="booking-modal">
+    <div class="modal__overlay">
+    </div>
+    <div class="modal__dialog">
+        <a href="#" class="modal__close">
+            <img src="~/img/close.svg" alt="Icon: close">
+        </a>
+        <h3 class="modal__title modal__title--form">Booking</h3>
+        <form class="modal__form form"
+              method="post">
+            <div class="modal__input-group">
+                <input type="text"
+                       class="input modal__input"
+                       placeholder="Your Full Name*"
+                       name="name"
+                       required
+                       minlength="2">
+            </div>
+            <div class="modal__input-group">
+                <input type="tel"
+                       class="input modal__input"
+                       placeholder="Phone Number*"
+                       name="phone"
+                       required
+                       data-mask="+7(000)-000-00-00">
+            </div>
+            <div class="modal__input-group">
+                <input type="email"
+                       class="input modal__input"
+                       placeholder="Email*"
+                       name="email"
+                       required>
+            </div>
+            <textarea class="message modal__message"
+                      placeholder="Message"
+                      name="message"></textarea>
+            <button type="submit"
+                    class="button modal__button">
+                Send
+            </button>
+            <span class="modal__info--top">*&nbsp;Required fields</span>
+            <span class="modal__info--span">*&nbsp;Required fields</span>
+        </form>
+    </div>
+</div>

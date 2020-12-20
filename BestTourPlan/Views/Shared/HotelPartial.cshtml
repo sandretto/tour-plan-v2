@@ -1,0 +1,94 @@
+﻿<section class="hotel">
+        <div class="container">
+            <div class="hotel-info">
+                <div class="hotel-info__text">
+                    <div class="hotel-wrapper">
+                        <div class="stars">
+                            <img class="star" src="~/img/star.svg" alt="star">
+                            <img class="star" src="~/img/star.svg" alt="star">
+                            <img class="star" src="~/img/star.svg" alt="star">
+                            <img class="star" src="~/img/star.svg" alt="star">
+                            <img class="star" src="~/img/star.svg" alt="star">
+                        </div>
+
+                        <h1 class="hotel-name hotel-info__name">GRAND HILTON HOTEL</h1> <!--Name-->
+                        <span class="offer hotel-info__offer">Flash Offer</span>
+                    </div>
+                    <p class="hotel-description hotel-info__description">
+                        <!--Description-->
+                        Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free
+                    </p>
+                </div>
+                <div class="rating hotel-info__rating"
+                     data-toggle="modal"
+                     data-href="#rating-modal">
+                    <span class="rating__text">User Ratings</span>
+                    <span class="rating__counter">4.5/</span> <!--Rating-->
+                    <!--
+                    -->
+                    <span class="rating__max">5</span>
+                </div>
+            </div>
+            <div class="hotel-grid">
+                <div class="swiper-container hotel-slider hotel__slider">
+                    <!--Images will be chosen by admin-->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide hotel-slider__item">
+                            <img src="~/img/slide-1.jpg" alt="Slide 1" class="hotel-slider__image">
+                        </div>
+                        <div class="swiper-slide hotel-slider__item">
+                            <img src="~/img/slide-2.jpg" alt="Slide 2" class="hotel-slider__image">
+                        </div>
+                        <div class="swiper-slide hotel-slider__item">
+                            <img src="~/img/slide-3.jpg" alt="Slide 3" class="hotel-slider__image">
+                        </div>
+                        <div class="swiper-slide hotel-slider__item">
+                            <img src="~/img/slide-4.jpg" alt="Slide 4" class="hotel-slider__image">
+                        </div>
+                    </div>
+
+                    <button class="hotel-slider__button hotel-slider__button--prev"></button>
+                    <button class="hotel-slider__button hotel-slider__button--next"></button>
+                </div>
+                <div class="hotel-right">
+                    <div class="booking">
+                        <div class="booking__info">
+                            <div class="booking__price">
+                                <span class="booking__start">price starts as</span>
+                                <strong class="booking__pricetag">$ 8,500</strong> <!--Price-->
+                                <span class="booking__per-room">per room / night</span>
+                            </div>
+                            <div class="booking__room">
+                                <div class="booking__text">
+                                    <img src="~/img/user.svg"
+                                         alt="Icon: user"
+                                         class="booking__icon">
+                                    <span class="booking__descripion">2 x Guests</span>
+                                </div>
+                                <div class="booking__text">
+                                    <img src="~/img/room.svg"
+                                         alt="Icon: room"
+                                         class="booking__icon">
+                                    <span class="booking__descripion">1 x Room</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking__call-center">
+                            <span class="booking__heading">Quick Booking</span>
+                            <a href="tel:12100" class="booking__phone">
+                                <img src="~/img/phone-call.svg" alt="Icon: phone">
+                                <span class="booking__number">12100</span>
+                            </a>
+                        </div>
+                        <button data-toggle="modal"
+                                data-href="#booking-modal"
+                                class="button booking__button">
+                            View Other Options
+                        </button>
+                    </div>
+                    <div id="map">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
