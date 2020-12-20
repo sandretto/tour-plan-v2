@@ -4,7 +4,7 @@ namespace BestTourPlan.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Show()
+        public IActionResult Index()
         {
             return View();
         }
