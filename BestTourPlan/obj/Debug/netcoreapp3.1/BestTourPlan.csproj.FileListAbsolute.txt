@@ -128,7 +128,6 @@ Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTour
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\BestTourPlan.RazorCoreGenerate.cache
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
-Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login1.cshtml.g.cs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ActivitiesPartial.cshtml.g.cs
 Q:\DATA\03-Web-2020\best-tour-plan\BestTourPlan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\BreadcrumbPartial.cshtml.g.cs
