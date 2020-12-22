@@ -31,6 +31,7 @@ namespace BestTourPlan
             Configuration.Bind("Project", new Config());
 
             services.AddTransient<IHotelRepository, EFHotelRepository>();
+            services.AddTransient<DataHelper>();
 
             services.AddDbContext<AppDbContext>(x => 
                 x.UseSqlServer(Config.ConnectionString));
