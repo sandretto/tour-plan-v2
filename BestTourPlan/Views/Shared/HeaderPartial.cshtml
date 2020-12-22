@@ -18,10 +18,10 @@
             </form>
 
             <a href="#" class="user navbar__user navbar__user--mobile--hidden">
-                <img src="~/img/user-avatar.jfif"
-                     alt="Avatar: Nathan"
+                <img src="~/img/admin.png"
+                     alt="Avatar: Admin"
                      class="user__avatar">
-                <span class="user__name">Nathan</span>
+                <span class="user__name">Admin</span>
             </a>
             <button class="menu-button navbar-top__menu-button">
                 <span class="menu-button__line"></span>
@@ -35,10 +35,10 @@
             <ul class="navbar-menu">
                 <li class="navbar-menu__item navbar-menu__item--mobile--visible">
                     <a href="#" class="user navbar__user navbar__user--mobile--visible">
-                        <img src="~/img/user-avatar.jfif"
-                             alt="Avatar: Nathan"
+                        <img src="~/img/admin.png"
+                             alt="Avatar: Admin"
                              class="user__avatar">
-                        <span class="user__name user__name--light">Nathan</span>
+                        <span class="user__name user__name--light">Admin</span> <!--Here there will be user's photo-->
                     </a>
                 </li>
                 <li class="navbar-menu__item navbar-menu__item--mobile--visible">
@@ -56,7 +56,11 @@
                     <a href="#" class="navbar-menu__link">All Deals</a>
                 </li>
                 <li class="navbar-menu__item">
-                    <a href="#" class="navbar-menu__link">Hotels</a>
+                    <a 
+                       asp-area=""
+                       asp-controller="Home"
+                       asp-action="Index"
+                       class="navbar-menu__link">Hotels</a>
                 </li>
                 <li class="navbar-menu__item">
                     <a href="#" class="navbar-menu__link">Activities</a>
