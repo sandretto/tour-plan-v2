@@ -40,7 +40,7 @@ namespace BestTourPlan.Controllers
                 {
                     await signInManager.SignOutAsync();
                     Microsoft.AspNetCore.Identity.SignInResult result = 
-                        await signInManager.PasswordSignInAsync(user, model.Password, true, false);
+                        await signInManager.PasswordSignInAsync(user, model.Password, false, false);
                     if (result.Succeeded)
                     {
                         return Redirect(returnUrl ?? "/");
