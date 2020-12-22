@@ -12,9 +12,10 @@
 </head>
 <body>
     <section class="login">
-        <div class="login__container">
-            <h3 class="login__title modal__title--form">Sign In</h3>
+        <div class="login__background">
+            <div class="login__container">
             <form asp-action="Login">
+                <h4 class="login__title">Sign In</h4>
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="login__input-group">
                     <input type="text"
@@ -33,13 +34,9 @@
                 <div class="form-group">
                     <input type="submit" value="Sign In" class="button login__button" />
                 </div>
-                <span class="login__info--top">*&nbsp;Required fields</span>
-                <div>
-                    <a asp-action="Index" class="footer__link">
-                        <input type="submit" value="Back to List" class="button login__button" />
-                    </a>
-                </div>
+                <span class="login__info">*&nbsp;Required fields</span>
             </form>
+        </div>
         </div>
     </section>
 </body>
