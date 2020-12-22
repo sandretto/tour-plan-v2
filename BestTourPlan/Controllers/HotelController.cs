@@ -1,20 +1,21 @@
 ﻿using BestTourPlan.Domain;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace BestTourPlan.Controllers
 {
-    public class HomeController : Controller
+    public class HotelController : Controller
     {
         private readonly DataHelper dataHelper;
 
-        public HomeController(DataHelper dataHelper)
+        public HotelController(DataHelper dataHelper)
         {
             this.dataHelper = dataHelper;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(Guid id)
         {
-            return View(dataHelper.Hotels.GetHotels());
+            return View(dataHelper.Hotels.GetHotelById(id));
         }
     }
 }
