@@ -1,12 +1,28 @@
 .login
-    &__container
+    &__background
+        position: fixed
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
         background-color: $dark-theme
-        padding-top: 40px
-        padding-bottom: 40px
+    &__container
+        padding: 40px 0
+        margin: 50px 0
         display: flex
-        flex-direction: row
+        flex-direction: column
         justify-content: center
         align-items: center
+    &__title
+        display: flex
+        text-align: center
+        font-style: normal
+        font-weight: bold
+        font-size: 24px
+        line-height: 30px
+        text-transform: uppercase
+        margin-bottom: 20px
+        color: $light-theme
     &__input
         min-width: 100%
         max-width: 100%
@@ -18,10 +34,8 @@
         max-width: 100%
         margin: 15px 0 15px 0
     &__info
-        color: $footer-text-color
-        &--span
-            display: inline
-            font-style: normal
-            font-weight: bold
-            font-size: 12px
-            line-height: 15px
+        color: $light-theme
+        font-style: normal
+        font-weight: bold
+        font-size: 12px
+        line-height: 15px
