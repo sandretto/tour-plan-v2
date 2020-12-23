@@ -16,7 +16,11 @@ namespace BestTourPlan.Domain
 
     public class AppDbContext : IdentityDbContext<CustomIdentityUser>
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) 
+        {
+            //Database.EnsureDeleted();
+            //Database.EnsureCreated();
+        }
         
         public DbSet<Hotel> Hotels { get; set; }
 
@@ -56,11 +60,29 @@ namespace BestTourPlan.Domain
                 .HasData(new Hotel
                 {
                     Id = new Guid("dcd862fd-14e6-499e-a41a-34ca091fab72"),
-                    Name = "GRAND HILTON HOTEL",
+                    Name = "Hotel Transylvania",
+                    Description = "Half-Board/ All Inclusive + Complimentary Activities + Bonus For Monsters",
+                    Rating = 4.0,
+                    ImagePath = "~/img/castle.jpg",
+                    Price = 9500.0m
+                },
+                new Hotel
+                {
+                    Id = new Guid("be0cc7f6-be5b-4886-af6c-0ff8876f96d8"),
+                    Name = "Grand Hilton Hotel",
                     Description = "Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free",
                     Rating = 5.0,
                     ImagePath = "~/img/slide-1.jpg",
                     Price = 8500.0m
+                },
+                new Hotel
+                {
+                    Id = new Guid("0841e324-986f-4fdf-9fb7-23f435e500d3"),
+                    Name = "Park Inn by Radisson Pulkovskaya",
+                    Description = "Great option for 2 persons/ Shuttle service from/to the airport",
+                    Rating = 4.0,
+                    ImagePath = "~/img/park-inn.jpg",
+                    Price = 6500.0m
                 });
         }
     }

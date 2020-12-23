@@ -1,4 +1,4 @@
-﻿@model IEnumerable<BestTourPlan.Domain.Entities.Hotel>
+﻿@model IQueryable<BestTourPlan.Domain.Entities.Hotel>
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -11,28 +11,25 @@
         </h2>
         
         <div class="hotels-wrapper">
-            @for (int j = 0; j < 12; j++)
+            @foreach (var item in Model)
             {
-                @foreach (var item in Model)
-                {
-                    <div class="card hotels__card">
-                        <img src="~/img/slide-2.jpg"
-                             alt="Image: @Html.DisplayFor(modelItem => item.Name)"
-                             class="card__image">
-                        <h3 class="card__title">@Html.DisplayFor(modelItem => item.Name)</h3>
-                        <div class="hotels__stars">
-                            @for (int i = 0; i < (int)item.Rating; i++)
-                            {
-                                <img class="star" src="~/img/star.svg" alt="star">
-                            }
-                        </div>
-                        <a asp-area=""
-                           asp-controller="Hotel"
-                           asp-action="Index"
-                           asp-route-id="@item.Id"
-                           class="hotels__button">Details</a>
+                <div class="card hotels__card">
+                    <img src=@Url.Content(item.ImagePath)
+                         alt="Image: @Html.DisplayFor(modelItem => item.Name)"
+                         class="card__image">
+                    <h3 class="card__title">@Html.DisplayFor(modelItem => item.Name)</h3>
+                    <div class="hotels__stars">
+                        @for (int i = 0; i < (int)item.Rating; i++)
+                        {
+                            <img class="star" src="~/img/star.svg" alt="star">
+                        }
                     </div>
-                }
+                    <a asp-area=""
+                       asp-controller="Hotel"
+                       asp-action="Index"
+                       asp-route-id="@item.Id"
+                       class="hotels__button">Details</a>
+                </div>
             }
         </div>
     </div>

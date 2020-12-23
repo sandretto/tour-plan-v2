@@ -8,11 +8,10 @@
 </head>
 <body>
     @await Html.PartialAsync("HeaderPartial")
-
     @RenderBody()
-
     @await Html.PartialAsync("NewsletterPartial")
-
+    @await Html.PartialAsync("ReviewsPartial")
+    @await Html.PartialAsync("ActivitiesPartial")
     @await Html.PartialAsync("FooterPartial")
 </body>
 </html>

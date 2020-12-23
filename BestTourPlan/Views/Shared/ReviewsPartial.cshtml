@@ -1,4 +1,6 @@
-﻿<section class="reviews">
+﻿@using BestTourPlan.Utility
+
+<section class="reviews">
     <div class="container">
         <h2 class="reviews-title"
             data-aos="fade-down"
@@ -10,21 +12,21 @@
              data-aos="fade-up"
              data-aos-duration="900"
              data-aos-easing="ease-in-sine">
-            <div class="swiper-wrapper"> <!--Slides will be added by admin-->
+            <div class="swiper-wrapper">
+                <!--Slides will be added by admin-->
                 <div class="swiper-slide">
                     <div class="reviews-slider__item">
                         <div class="reviews-slider__profile">
-                            <img src="img/avatar.jpg"
+                            <img src="~/img/avatar.jpg"
                                  alt="Photo: Megan Fox"
                                  class="reviews-slider__avatar">
                             <h3 class="reviews-slider__username">Megan Fox</h3>
                             <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
                             <div class="reviews-slider__rating">
-                                <img class="star" src="img/star.svg" alt="star">
-                                <img class="star" src="img/star.svg" alt="star">
-                                <img class="star" src="img/star.svg" alt="star">
-                                <img class="star" src="img/star.svg" alt="star">
-                                <img class="star" src="img/star.svg" alt="star">
+                                @for (int i = 0; i < Constants.MaxRating; i++)
+                                {
+                                    <img class="star" src="~/img/star.svg" alt="star">
+                                }
                             </div>
                         </div>
                         <p class="reviews-slider__text">
@@ -36,17 +38,16 @@
                 <div class="swiper-slide">
                     <div class="reviews-slider__item">
                         <div class="reviews-slider__profile">
-                            <img src="img/fake-avatar.jpg"
+                            <img src="~/img/fake-avatar.jpg"
                                  alt="Photo: Alice Blue"
                                  class="reviews-slider__avatar">
                             <h3 class="reviews-slider__username">Alice Blue</h3>
                             <span class="reviews-slider__date">Stayed 10 Nov, 2020</span>
                             <div class="reviews-slider__rating">
-                                <img class="star" src="img/star.svg" alt="star">
-                                <img class="star" src="img/star.svg" alt="star">
-                                <img class="star" src="img/star.svg" alt="star">
-                                <img class="star" src="img/star.svg" alt="star">
-                                <img class="star" src="img/star.svg" alt="star">
+                                @for (int i = 0; i < Constants.MaxRating; i++)
+                                {
+                                    <img class="star" src="~/img/star.svg" alt="star">
+                                }
                             </div>
                         </div>
                         <p class="reviews-slider__text">
